@@ -22,5 +22,4 @@ def test_for_changing_the_language_of_the_add_to_cart_button(browser, user_langu
 # Запуск теста из терминала:
 # pytest --language=es test_items.py -s -v
 # pytest -s -v --language=fr test_items.py
-# pytest test_items.py
 
