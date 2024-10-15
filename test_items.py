@@ -19,8 +19,8 @@ def test_for_changing_the_language_of_the_add_to_cart_button(browser, user_langu
     # Assert
     assert button_add_to_cart.text in expected_button_text[user_language], 'Неверное содержание текста кнопки'
 
-
 # Запуск теста из терминала:
-# pytest --language=es review3.6.10/test_3.6.10.py -s -v
-# pytest -s -v --language=fr review3.6.10/test_3.6.10.py
+# pytest --language=es test_items.py -s -v
+# pytest -s -v --language=fr test_items.py
+# pytest test_items.py
 
